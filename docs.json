@@ -14,34 +14,34 @@
         "dropdown": "📘 Inicio",
         "icon": "book-open",
         "pages": [
-          "ayuda/inicio/Introduccion"
+          "inicio/Introduccion"
         ]
       },
       {
         "dropdown": "🧾 Facturación y Resoluciones",
         "icon": "file-invoice",
         "pages": [
-          "ayuda/facturacion_resolucion/Resolucion Documentos Soporte",
-          "ayuda/facturacion_resolucion/Resolucion Facturacion POS",
-          "ayuda/facturacion_resolucion/Resolucion de Contingencia",
-          "ayuda/facturacion_resolucion/Resolucion Facturacion Electronica",
-          "ayuda/facturacion_resolucion/Facturacion Electronica",
-          "ayuda/facturacion_resolucion/Facturacion POS"
+          "facturacion_resolucion/Resolucion Documentos Soporte",
+          "facturacion_resolucion/Resolucion Facturacion POS",
+          "facturacion_resolucion/Resolucion de Contingencia",
+          "facturacion_resolucion/Resolucion Facturacion Electronica",
+          "facturacion_resolucion/Facturacion Electronica",
+          "facturacion_resolucion/Facturacion POS"
         ]
       },
       {
         "dropdown": "💼 ERP",
         "icon": "briefcase",
         "pages": [
-          "ayuda/ERP/Inicio",
-          "ayuda/ERP/Contactos",
-          "ayuda/ERP/Inventario",
-          "ayuda/ERP/Facturacion Electronica",
-          "ayuda/ERP/Facturacion POS",
-          "ayuda/ERP/CRM Flexible",
-          "ayuda/ERP/Compras",
-          "ayuda/ERP/Nomina Electronica",
-          "ayuda/ERP/Restablecer Contraseña"
+          "ERP/Inicio",
+          "ERP/Contactos",
+          "ERP/Inventario",
+          "ERP/Facturacion Electronica",
+          "ERP/Facturacion POS",
+          "ERP/CRM Flexible",
+          "ERP/Compras",
+          "ERP/Nomina Electronica",
+          "ERP/Restablecer Contraseña"
         ]
       }
     ]
