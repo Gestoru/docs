@@ -20,7 +20,10 @@
               "introduction",
               "development"
             ]
-          },
+          }
+        ]
+      }
+    ],
     "global": {
       "anchors": [
         {
@@ -50,7 +53,7 @@
   },
   "footer": {
     "socials": {
-      "instagram": "https://www.instagram.com/gestorusoftware/?hl=es",
+      "instagram": "https://www.instagram.com/gestorusoftware/?hl=es"
     }
   }
 }
