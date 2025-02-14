@@ -18,10 +18,11 @@
             "pages": [
               "Inicio",
               "Dian",
-              "Facturacion-electronica"
+              "name": "Facturación electrónica",
+              "href": "facturacion-electronica"
             ]
           }
-        ],
+        ]
       }
     ],
     "global": {
