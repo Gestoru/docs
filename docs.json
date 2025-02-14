@@ -24,23 +24,6 @@
         ],
       }
     ],
-    "tabs": [
-      {
-        "tab": "Modulos",
-        "groups": [
-          {
-            "group": "Inicio",
-            "pages": [
-              "Inicio": [
-                  "Dian",
-              ],
-              "Dian",
-              "Facturacion-electronica"
-            ]
-          }
-        ],
-      }
-    ],
     "global": {
       "anchors": [
         {
