@@ -67,19 +67,70 @@ You cannot use `api` for the name of a folder unless you nest it inside another 
 </Warning>
 
 ```json Navigation With Folder
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Group Name",
-          "pages": ["your-folder/your-page"]
-        }
-      ]
-    }
-  ]
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "📘 Módulo de Inicio y Configuración General",
+        "icon": "book-open",
+        "pages": [
+          "inicio-rapido",
+          "inicio"
+        ]
+      },
+      {
+        "dropdown": "🧾 Módulo de Facturación y Resoluciones",
+        "icon": "file-invoice",
+        "pages": [
+          "facturacion",
+          "facturacion-pos",
+          "resolucion-pos",
+          "resolucion-documento-soporte",
+          "resolucion-facturacion-electronica",
+          "resolucion-contingencia",
+          "habilitacion-dian"
+        ]
+      },
+      {
+        "dropdown": "🛒 Módulo de Compras y Proveedores",
+        "icon": "shopping-cart",
+        "pages": [
+          "compras",
+          "contactos"
+        ]
+      },
+      {
+        "dropdown": "📦 Módulo de Inventarios y Productos",
+        "icon": "box",
+        "pages": [
+          "inventario"
+        ]
+      },
+      {
+        "dropdown": "💼 Módulo de Nómina y Gestión de Empleados",
+        "icon": "briefcase",
+        "pages": [
+          "nomina"
+        ]
+      },
+      {
+        "dropdown": "🤝 Módulo de CRM y Gestión Comercial",
+        "icon": "users",
+        "pages": [
+          "crm"
+        ]
+      },
+      {
+        "dropdown": "🛡️ Módulo de Seguridad y Accesos",
+        "icon": "key",
+        "pages": [
+          "restablecer-contraseña",
+          "restablecer-webmail"
+        ]
+      }
+    ]
+  }
 }
+
 ```
 
 ## Hidden Pages

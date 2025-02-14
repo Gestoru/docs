@@ -8,25 +8,70 @@
     "dark": "#15803D"
   },
   "favicon": "/fav.png",
+  {
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guias",
-        "groups": [
-          {
-            "group": "Inicio",
-            "pages": [
-              "Inicio",
-              "Dian",
-              "Facturacion-electronica",
-              "Reestablecer-Webmail",
-              "Cotizaciones-Flexibles",
-              "Responsabilidad-Contingencia",
-            ]
-          }
+        "dropdown": "📘 Módulo de Inicio y Configuración General",
+        "icon": "book-open",
+        "pages": [
+          "inicio-rapido",
+          "inicio"
+        ]
+      },
+      {
+        "dropdown": "🧾 Módulo de Facturación y Resoluciones",
+        "icon": "file-invoice",
+        "pages": [
+          "facturacion",
+          "facturacion-pos",
+          "resolucion-pos",
+          "resolucion-documento-soporte",
+          "resolucion-facturacion-electronica",
+          "resolucion-contingencia",
+          "habilitacion-dian"
+        ]
+      },
+      {
+        "dropdown": "🛒 Módulo de Compras y Proveedores",
+        "icon": "shopping-cart",
+        "pages": [
+          "compras",
+          "contactos"
+        ]
+      },
+      {
+        "dropdown": "📦 Módulo de Inventarios y Productos",
+        "icon": "box",
+        "pages": [
+          "inventario"
+        ]
+      },
+      {
+        "dropdown": "💼 Módulo de Nómina y Gestión de Empleados",
+        "icon": "briefcase",
+        "pages": [
+          "nomina"
+        ]
+      },
+      {
+        "dropdown": "🤝 Módulo de CRM y Gestión Comercial",
+        "icon": "users",
+        "pages": [
+          "crm"
+        ]
+      },
+      {
+        "dropdown": "🛡️ Módulo de Seguridad y Accesos",
+        "icon": "key",
+        "pages": [
+          "restablecer-contraseña",
+          "restablecer-webmail"
         ]
       }
-    ],
+    ]
+  }
+},
     "global": {
       "anchors": [
         {
