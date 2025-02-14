@@ -11,61 +11,37 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "📘 Módulo de Inicio y Configuración General",
+        "dropdown": "📘 Inicio",
         "icon": "book-open",
         "pages": [
-          "ayuda/inicio-rapido",
-          "ayuda/inicio"
+          "ayuda/inicio/Introduccion"
         ]
       },
       {
-        "dropdown": "🧾 Módulo de Facturación y Resoluciones",
+        "dropdown": "🧾 Facturación y Resoluciones",
         "icon": "file-invoice",
         "pages": [
-          "ayuda/facturacion",
-          "ayuda/facturacion-pos",
-          "ayuda/resolucion-pos",
-          "ayuda/resolucion-documento-soporte",
-          "ayuda/resolucion-facturacion-electronica",
-          "ayuda/resolucion-contingencia",
-          "ayuda/habilitacion-dian"
+          "ayuda/facturacion_resolucion/Resolucion Documentos Soporte",
+          "ayuda/facturacion_resolucion/Resolucion Facturacion POS",
+          "ayuda/facturacion_resolucion/Resolucion de Contingencia",
+          "ayuda/facturacion_resolucion/Resolucion Facturacion Electronica",
+          "ayuda/facturacion_resolucion/Facturacion Electronica",
+          "ayuda/facturacion_resolucion/Facturacion POS"
         ]
       },
       {
-        "dropdown": "🛒 Módulo de Compras y Proveedores",
-        "icon": "shopping-cart",
-        "pages": [
-          "ayuda/compras",
-          "ayuda/contactos"
-        ]
-      },
-      {
-        "dropdown": "📦 Módulo de Inventarios y Productos",
-        "icon": "box",
-        "pages": [
-          "ayuda/inventario"
-        ]
-      },
-      {
-        "dropdown": "💼 Módulo de Nómina y Gestión de Empleados",
+        "dropdown": "💼 ERP",
         "icon": "briefcase",
         "pages": [
-          "ayuda/nomina"
-        ]
-      },
-      {
-        "dropdown": "🤝 Módulo de CRM y Gestión Comercial",
-        "icon": "users",
-        "pages": [
-          "ayuda/crm"
-        ]
-      },
-      {
-        "dropdown": "🛡️ Módulo de Seguridad y Accesos",
-        "icon": "key",
-        "pages": [
-          "ayuda/restablecer-contraseña",
-          "ayuda/restablecer-webmail"
+          "ayuda/ERP/Inicio",
+          "ayuda/ERP/Contactos",
+          "ayuda/ERP/Inventario",
+          "ayuda/ERP/Facturacion Electronica",
+          "ayuda/ERP/Facturacion POS",
+          "ayuda/ERP/CRM Flexible",
+          "ayuda/ERP/Compras",
+          "ayuda/ERP/Nomina Electronica",
+          "ayuda/ERP/Restablecer Contraseña"
         ]
       }
     ]
