@@ -1,5 +1,121 @@
----
-title: 'Facturacion'
-description: 'Modulo de facturacion'
+## 💳 Módulo de Facturación  
+URL: [ayuda.gestoru.com/ayuda/facturacion](https://ayuda.gestoru.com/ayuda/facturacion)  
+
+El **Módulo de Facturación** permite crear, gestionar y realizar el seguimiento de las facturas emitidas a los clientes. Está integrado con módulos como **Inventario**, **Contactos** y **Compras**, facilitando una gestión completa de ventas y cumplimiento fiscal.  
+
 ---
 
+### 📋 Características principales  
+
+#### 📌 Factura de Venta  
+URL: [ayuda.gestoru.com/ayuda/facturacion/factura-venta](https://ayuda.gestoru.com/ayuda/facturacion/factura-venta)  
+
+Este submódulo permite crear, emitir y gestionar facturas de venta, garantizando que cumplan con los requisitos legales y fiscales.  
+
+- 📸 **Recomendación de imagen:** Captura del formulario de creación de factura.  
+- 🎥 **Recomendación de video:** Cómo llenar el formulario para crear una factura.  
+
+##### ➕ Crear Factura de Venta  
+- **Cliente:** Selecciona uno de tus contactos o crea uno nuevo rápidamente.  
+- **Fecha:** Registra la fecha de creación. (*Nota: La DIAN rechaza facturas con más de 24 horas de antigüedad*)  
+- **Plazo:** Define si la factura es a **contado** o **crédito**, según la configuración del cliente.  
+- **Más opciones:** Agrega observaciones internas.  
+- **Vencimiento:** Calculado automáticamente según el plazo seleccionado.  
+- **Bodega:** Elige la bodega de origen del producto.  
+- **Tipo de operación:** Por defecto será "Estándar".  
+- **Tipo de documento:** Por defecto será "Factura de Venta".  
+
+> **Tip:** Usa la búsqueda rápida para encontrar productos por nombre o referencia.  
+> Consulta más en [Gestión de contactos](https://ayuda.gestoru.com/ayuda/contactos).  
+
+---
+
+##### ⚙️ Acciones Disponibles  
+- **Filtrar:** Encuentra facturas rápidamente.  
+- **Facturar en lote:** Genera múltiples facturas a la vez.  
+- **Modificar fechas:** Corrige la fecha de una factura.  
+
+> 🎥 **Recomendación de video:** Cómo usar la opción "Facturar en lote".  
+
+---
+
+##### 📑 Visualización y Opciones sobre Facturas  
+Al crear una factura, se muestra en la tabla del submódulo, desde donde puedes:  
+
+- 👁️ **Visualizar:** Revisa la factura y los pagos realizados.  
+- 🖨️ **Imprimir:** Descarga la factura en PDF.  
+- 📧 **Enviar por correo:** Envía la factura al cliente.  
+- 💵 **Agregar pago:** Registra un pago recibido.  
+- 🔄 **Convertir a constancia de devolución:** Formaliza devoluciones de productos.  
+- 📃 **Convertir a comprobante de compra:** Convierte una factura proforma en comprobante de compra.  
+- 💾 **Descargar XML:** Descarga el archivo XML para reportarlo ante la DIAN.  
+- 🧩 **Trazabilidad:** Consulta el historial completo de la factura.  
+
+> 📸 **Recomendación de imagen:** Ejemplo de factura completa con el detalle de ítems.  
+> 🎥 **Recomendación de video:** Cómo agregar un pago desde la factura.  
+
+---
+
+#### 💰 Pagos Recibidos  
+URL: [ayuda.gestoru.com/ayuda/facturacion/pagos-recibidos](https://ayuda.gestoru.com/ayuda/facturacion/pagos-recibidos)  
+
+Este submódulo registra abonos, controla saldos pendientes y permite un seguimiento detallado de los pagos.  
+
+- 📸 **Recomendación de imagen:** Vista del formulario para registrar pagos.  
+- 🎥 **Recomendación de video:** Cómo registrar un pago recibido.  
+
+##### ➕ Registrar Pago  
+- **Cliente:** Selecciona el contacto asociado al pago.  
+- **Cuenta:** Elige la cuenta receptora del pago.  
+- **Método de pago:** Indica si fue efectivo, transferencia, tarjeta, etc.  
+- **Fecha:** Registra la fecha del ingreso.  
+- **Facturas pendientes:** Asocia el pago a una factura específica si aplica.  
+- **Agregar retención:** Registra cualquier retención aplicada al pago.  
+
+> **Tip:** Asocia siempre los pagos a sus facturas para facilitar la conciliación contable.  
+
+---
+
+#### 🧾 Notas de Crédito  
+URL: [ayuda.gestoru.com/ayuda/facturacion/notas-credito](https://ayuda.gestoru.com/ayuda/facturacion/notas-credito)  
+
+Este submódulo permite emitir, registrar y gestionar **notas de crédito (NC)**, que corrigen errores en facturas o reflejan devoluciones.  
+
+- 📸 **Recomendación de imagen:** Formulario para crear una nota de crédito.  
+- 🎥 **Recomendación de video:** Cómo generar y emitir una nota de crédito.  
+
+##### ➕ Crear Nota de Crédito  
+- **Cliente:** Selecciona al contacto relacionado.  
+- **Número:** El sistema asigna automáticamente un número consecutivo.  
+- **Tipo de Nota:** Elige el motivo (p.ej., devolución, descuento, error en la factura).  
+- **Factura:** Asocia la NC a una factura específica del cliente.  
+
+> **Tip:** Solo se pueden emitir NC si la factura asociada ya fue emitida ante la DIAN.  
+
+---
+
+##### ⚙️ Acciones sobre Notas de Crédito  
+- 👁️ **Visualizar:** Revisa el detalle de la NC.  
+- 🖨️ **Imprimir:** Descarga la NC en PDF.  
+- 📧 **Enviar por correo:** Remite la NC al cliente.  
+- ✏️ **Editar:** Modifica la NC si aún no ha sido emitida.  
+- 🧩 **Trazabilidad:** Consulta el historial de la NC.  
+- 🚀 **Emitir:** Reporta la NC ante la DIAN.  
+
+> **Nota:** La emisión será rechazada si la fecha de la NC es mayor a 24 horas desde su creación.  
+
+---
+
+### 💡 Recomendaciones Generales  
+- 📌 **Configura plantillas de correo:** Para enviar facturas automáticamente a tus clientes.  
+- 🛡️ **Guarda copias en PDF:** Antes de cualquier edición o emisión.  
+- 📊 **Programa reportes mensuales:** De pagos recibidos y facturas abiertas.  
+- 💾 **Realiza backups de XML:** Especialmente de facturas emitidas.  
+
+---
+
+### ℹ️ Recursos Adicionales  
+- 🆘 [Centro de ayuda de Gestoru](https://ayuda.gestoru.com)  
+- 📝 [Cómo crear facturas](https://ayuda.gestoru.com/ayuda/facturacion/factura-venta)  
+- 💳 [Registrar pagos recibidos](https://ayuda.gestoru.com/ayuda/facturacion/pagos-recibidos)  
+- 🧾 [Crear notas de crédito](https://ayuda.gestoru.com/ayuda/facturacion/notas-credito)  
