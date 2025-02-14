@@ -9,34 +9,75 @@
   },
   "favicon": "/fav.png",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guias",
-        "groups": [
-          {
-            "group": "Inicio",
-            "pages": [
-              "Inicio",
-              "Dian",
-              "Facturacion-electronica",
-              "Reestablecer-Webmail",
-              "Cotizaciones-Flexibles",
-              "Responsabilidad-Contingencia",
-              "Reestablecer-Contrasea",
-            ]
-          }
+        "dropdown": "📘 Módulo de Inicio y Configuración General",
+        "icon": "book-open",
+        "pages": [
+          "ayuda/inicio-rapido",
+          "ayuda/inicio"
+        ]
+      },
+      {
+        "dropdown": "🧾 Módulo de Facturación y Resoluciones",
+        "icon": "file-invoice",
+        "pages": [
+          "ayuda/facturacion",
+          "ayuda/facturacion-pos",
+          "ayuda/resolucion-pos",
+          "ayuda/resolucion-documento-soporte",
+          "ayuda/resolucion-facturacion-electronica",
+          "ayuda/resolucion-contingencia",
+          "ayuda/habilitacion-dian"
+        ]
+      },
+      {
+        "dropdown": "🛒 Módulo de Compras y Proveedores",
+        "icon": "shopping-cart",
+        "pages": [
+          "ayuda/compras",
+          "ayuda/contactos"
+        ]
+      },
+      {
+        "dropdown": "📦 Módulo de Inventarios y Productos",
+        "icon": "box",
+        "pages": [
+          "ayuda/inventario"
+        ]
+      },
+      {
+        "dropdown": "💼 Módulo de Nómina y Gestión de Empleados",
+        "icon": "briefcase",
+        "pages": [
+          "ayuda/nomina"
+        ]
+      },
+      {
+        "dropdown": "🤝 Módulo de CRM y Gestión Comercial",
+        "icon": "users",
+        "pages": [
+          "ayuda/crm"
+        ]
+      },
+      {
+        "dropdown": "🛡️ Módulo de Seguridad y Accesos",
+        "icon": "key",
+        "pages": [
+          "ayuda/restablecer-contraseña",
+          "ayuda/restablecer-webmail"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Sistema",
-          "href": "https://gestoru.com/",
-          "icon": "web"
-        }
-      ]
-    }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Sistema",
+        "href": "https://gestoru.com/",
+        "icon": "web"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
