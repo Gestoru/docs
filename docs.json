@@ -14,7 +14,7 @@
         "tab": "Guias",
         "groups": [
           {
-            "group": "Inicia",
+            "group": "Inicio",
             "pages": [
               "quickstart",
               "introduction",
