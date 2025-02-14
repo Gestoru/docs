@@ -1,0 +1,194 @@
+---
+title: Módulo de Compras
+slug: /compras
+---
+
+## 🛒 Módulo de Compras
+
+El *Módulo de Compras* facilita la gestión integral de adquisiciones, permitiendo registrar proveedores, emitir órdenes de compra, gestionar facturas y controlar pagos, lo que se traduce en un manejo eficiente del inventario y las finanzas.
+
+<Note>
+Antes de iniciar cualquier proceso, asegúrate de verificar las fechas de vencimiento y relacionar correctamente facturas y órdenes de compra.
+</Note>
+
+---
+
+## Características Principales
+
+### <Card title="Factura de Proveedores">
+  <Info>
+    Este submódulo permite registrar y administrar las facturas recibidas de proveedores, facilitando el control de cuentas por pagar.
+  </Info>
+
+  *Características:*
+  - *Proveedor:* Selección del contacto asociado.
+  - *Número de factura:* Asignación automática.
+  - *Fecha y Plazo:* Registro de la fecha de emisión y del tiempo acordado para el pago.
+  - *Productos/Servicios:* Agregar ítems con descripción, cantidad y precio.
+
+  <Tip>
+    Asocia la factura a una bodega para mantener actualizado tu inventario.
+  </Tip>
+
+  <Steps>
+    <Step title="Crear Factura de Proveedor">
+      1. Selecciona el proveedor.
+      2. Revisa el número de factura asignado.
+      3. Ingresa la fecha y el plazo de pago.
+      4. Agrega los productos o servicios correspondientes.
+    </Step>
+  </Steps>
+
+  [Imagen con la tabla de facturas de proveedores]  
+  [Video corto mostrando cómo crear una factura de proveedor]
+</Card>
+
+### <Card title="Pagos / Egresos">
+  <Info>
+    Este submódulo registra y controla todos los pagos a proveedores y otros egresos operativos.
+  </Info>
+
+  *Características:*
+  - *Beneficiario:* Selección del proveedor asociado.
+  - *Cuenta y Método de Pago:* Elección de la cuenta bancaria y el método (transferencia, cheque o efectivo).
+  - *Asociación de Factura:* Vinculación del pago a una o varias facturas.
+
+  <Tip>
+    Siempre asocia los pagos a facturas para mantener un control contable preciso.
+  </Tip>
+
+  <Steps>
+    <Step title="Registrar un Pago">
+      1. Selecciona el beneficiario.
+      2. Elige la cuenta bancaria y el método de pago.
+      3. Asocia el pago a la factura correspondiente.
+    </Step>
+  </Steps>
+
+  [Imagen con la vista de la tabla de pagos]  
+  [Video corto mostrando cómo registrar un pago o egreso]
+</Card>
+
+### <Card title="Notas Débito">
+  <Info>
+    Las notas débito permiten ajustar saldos de facturas por devoluciones parciales, errores o cargos adicionales.
+  </Info>
+
+  *Características:*
+  - *Asociación a Factura:* Selección de la factura a la que se aplicará la nota.
+  - *Monto y Descripción:* Registro del valor del ajuste y explicación del motivo.
+
+  <Warning>
+    Las notas débito deben emitirse únicamente si están asociadas a facturas existentes.
+  </Warning>
+
+  <Steps>
+    <Step title="Emitir Nota Débito">
+      1. Selecciona la factura correspondiente.
+      2. Ingresa el monto del ajuste.
+      3. Describe el motivo de la modificación.
+    </Step>
+  </Steps>
+
+  [Imagen: Ejemplo de una nota débito registrada]  
+  [Video corto mostrando cómo emitir una nota débito]
+</Card>
+
+### <Card title="Órdenes de Compra">
+  <Info>
+    Este submódulo permite formalizar solicitudes de adquisición mediante la creación de órdenes de compra.
+  </Info>
+
+  *Características:*
+  - *Proveedor:* Selección del proveedor.
+  - *Productos/Servicios:* Agregar ítems con descripción, cantidad y precio.
+  - *Fecha de Entrega y Solicitante:* Definir la fecha estimada y asignar el responsable de la orden.
+
+  <Tip>
+    Utiliza el campo “Solicitante” para identificar quién gestionó la compra.
+  </Tip>
+
+  <Steps>
+    <Step title="Generar Orden de Compra">
+      1. Selecciona el proveedor.
+      2. Agrega los productos o servicios.
+      3. Define la fecha de entrega.
+      4. Asigna el solicitante.
+    </Step>
+  </Steps>
+
+  [Imagen con la vista del submódulo de Órdenes de Compra]  
+  [Video corto mostrando cómo generar una orden de compra]
+</Card>
+
+### <Card title="Pagos Recurrentes">
+  <Info>
+    Automatiza el proceso de pagos periódicos, como rentas, suscripciones o servicios, configurando cobros programados.
+  </Info>
+
+  *Características:*
+  - *Frecuencia:* Selección de la periodicidad (semanal, mensual, anual).
+  - *Método de Pago y Monto:* Asociación de la cuenta bancaria o tarjeta y registro del valor a pagar.
+
+  <Tip>
+    Configura pagos recurrentes para evitar retrasos y automatizar tus gastos.
+  </Tip>
+
+  <Steps>
+    <Step title="Configurar Pago Recurrente">
+      1. Define la frecuencia del pago.
+      2. Asocia el método de pago.
+      3. Ingresa el monto correspondiente.
+    </Step>
+  </Steps>
+
+  [Imagen con la tabla de pagos recurrentes]  
+  [Video corto mostrando cómo configurar pagos automáticos]
+</Card>
+
+### <Card title="Documentos Soporte">
+  <Info>
+    Emite documentos soporte para proveedores no obligados a facturar electrónicamente, facilitando la deducción fiscal.
+  </Info>
+
+  *Características:*
+  - *Proveedor:* Selección o creación del proveedor desde la sección de Contactos.
+  - *Número DIAN y Factura:* Asignación automática y sugerida.
+  - *Productos/Servicios:* Inclusión de los ítems adquiridos.
+
+  <Tip>
+    Relaciona siempre un producto del inventario para lograr un registro preciso.
+  </Tip>
+
+  <Steps>
+    <Step title="Emitir Documento Soporte">
+      1. Selecciona o crea el proveedor.
+      2. Revisa el número asignado.
+      3. Agrega los productos o servicios.
+    </Step>
+  </Steps>
+
+  [Imagen con el formulario para crear documentos soporte]  
+  [Video corto mostrando cómo emitir un documento soporte]
+</Card>
+
+---
+
+## 💡 Recomendaciones Generales
+
+- *Verifica las fechas de vencimiento:* Evita pagos tardíos.
+- *Genera reportes periódicos:* Controla el estado de pagos y egresos.
+- *Asocia facturas a órdenes de compra:* Mantén actualizado tu inventario.
+- *Configura pagos recurrentes:* Automatiza los gastos periódicos.
+- *Respalda los documentos soporte:* Facilita futuras auditorías.
+
+---
+
+## ℹ Recursos Adicionales
+
+- [Centro de ayuda](https://ayuda.gestoru.com)
+- [Cómo crear facturas de proveedores](https://ayuda.gestoru.com/ayuda/compras/factura-proveedores)
+- [Registrar pagos y egresos](https://ayuda.gestoru.com/ayuda/compras/pagos)
+- [Generar órdenes de compra](https://ayuda.gestoru.com/ayuda/compras/ordenes-compra)
+- [Emitir notas débito](https://ayuda.gestoru.com/ayuda/compras/notas-debito)
+- [Crear documentos soporte](https://ayuda.gestoru.com/ayuda/compras/documentos-soporte)

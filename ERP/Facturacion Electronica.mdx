@@ -1,0 +1,131 @@
+---
+title: "Módulo de Facturación Electrónica"
+---
+
+# Módulo de Facturación Electrónica
+
+El módulo de Facturación Electrónica está diseñado para crear, gestionar y dar seguimiento a facturas, pagos y notas de crédito, integrándose de forma fluida con otros módulos como Inventario y Contactos. Esto asegura el cumplimiento de normativas fiscales y la optimización de procesos comerciales.
+
+[Imagen: Dashboard del módulo de facturación electrónica]
+
+<Note>
+Recuerda que todas las operaciones deben ajustarse a las regulaciones vigentes de la DIAN. Verifica siempre las fechas y la integridad de la información.
+</Note>
+
+---
+
+## 1. Factura de Venta
+
+### Descripción breve
+El submódulo *Factura de Venta* permite la creación, emisión y gestión de facturas, asegurando que cumplan con los requisitos legales y fiscales. Está pensado para facilitar la asignación de clientes, productos y condiciones de pago de forma rápida y segura.
+
+### Características principales
+- *Cliente:* Selección o creación de un contacto.
+- *Fecha:* Registro de la fecha de emisión (nota: la DIAN rechaza facturas con más de 24 horas de antigüedad).
+- *Plazo:* Definición entre factura a *contado* o *crédito*.
+- *Más opciones:* Posibilidad de agregar observaciones internas.
+- *Vencimiento:* Cálculo automático basado en el plazo seleccionado.
+- *Bodega:* Selección de la bodega de origen de los productos.
+- *Tipo de operación y documento:* Predeterminados para agilizar el proceso.
+
+<Steps>
+  <Step title="Seleccionar Cliente">
+    Usa el buscador rápido para encontrar el cliente o crea uno nuevo si es necesario.
+  </Step>
+  <Step title="Ingresar Detalles">
+    Completa el formulario con la fecha, plazo, observaciones y demás datos requeridos.
+  </Step>
+  <Step title="Revisión y Emisión">
+    Verifica la información, visualiza la factura generada y procede a imprimir o enviar por correo.
+  </Step>
+</Steps>
+
+> <Tip>
+> Utiliza la función de búsqueda para localizar productos por nombre o referencia y agilizar la creación de la factura.
+> </Tip>
+
+### Recomendaciones generales
+- Configura plantillas de correo para envíos automáticos.
+- Guarda copias en PDF antes de editar o emitir la factura.
+- Realiza backups periódicos de los archivos XML generados.
+- Revisa siempre la fecha para evitar rechazos por parte de la DIAN.
+
+### Recursos adicionales
+- [Más sobre Facturación de Venta](https://ayuda.gestoru.com/facturacion/factura-venta)
+- [Gestión de Contactos](https://ayuda.gestoru.com/contactos)
+
+[Video corto: Creación de una Factura de Venta]
+
+---
+
+## 2. Pagos Recibidos
+
+### Descripción breve
+El submódulo *Pagos Recibidos* gestiona los abonos y el seguimiento de saldos pendientes. Permite registrar de forma detallada los diferentes métodos de pago, facilitando la conciliación contable y el control de cobros.
+
+### Características principales
+- *Cliente:* Asociar el pago al cliente correspondiente.
+- *Cuenta:* Seleccionar la cuenta receptora del pago.
+- *Método de pago:* Indicar si el pago se realizó en efectivo, transferencia, tarjeta, etc.
+- *Fecha:* Registro de la fecha del pago.
+- *Facturas pendientes:* Posibilidad de asignar el pago a facturas específicas.
+- *Agregar Retención:* Permite incluir retenciones aplicadas.
+
+<Card title="Registro de Pago">
+  Utiliza este formulario intuitivo para asociar cada pago a su factura, asegurando una correcta conciliación contable.
+</Card>
+
+> <Tip>
+> Siempre vincula el pago a la factura correspondiente para mantener la coherencia en los registros contables.
+> </Tip>
+
+### Recomendaciones generales
+- Verifica la fecha y el método de pago para evitar errores en la conciliación.
+- Realiza revisiones periódicas de los pagos pendientes y concilia con el registro contable.
+- Configura notificaciones para alertar sobre pagos registrados y vencimientos.
+
+### Recursos adicionales
+- [Registrar Pagos Recibidos](https://ayuda.gestoru.com/facturacion/pagos-recibidos)
+- [Guía para Conciliación de Pagos](https://ayuda.gestoru.com/conciliacion/pagos)
+
+[Imagen: Formulario de Registro de Pagos]
+[Video corto: Cómo registrar un pago]
+
+---
+
+## 3. Notas de Crédito
+
+### Descripción breve
+El submódulo *Notas de Crédito* permite la emisión y gestión de notas de crédito para corregir errores en facturas o reflejar devoluciones. Esto garantiza que cualquier ajuste se registre de manera adecuada y se notifique correctamente a la DIAN.
+
+### Características principales
+- *Cliente:* Selección del contacto asociado.
+- *Número:* Asignación automática de un número consecutivo.
+- *Tipo de Nota:* Elección del motivo (devolución, descuento, error en la factura, etc.).
+- *Factura asociada:* Relación con la factura original a corregir.
+
+<Info>
+Solo se pueden emitir notas de crédito si la factura original ya ha sido reportada ante la DIAN.
+</Info>
+
+### Recomendaciones generales
+- Verifica que la fecha de emisión no exceda las 24 horas para evitar rechazos.
+- Revisa que la factura asociada esté correctamente registrada en el sistema.
+- Mantén un historial detallado para futuras auditorías y consultas.
+
+<Warning>
+La emisión de una nota de crédito con una fecha incorrecta o sin la factura asociada correspondiente será rechazada por la DIAN.
+</Warning>
+
+### Recursos adicionales
+- [Crear Notas de Crédito](https://ayuda.gestoru.com/facturacion/notas-credito)
+- [Gestión de Facturación](https://ayuda.gestoru.com/facturacion)
+
+[Imagen: Formulario para crear una Nota de Crédito]
+[Video corto: Cómo emitir una Nota de Crédito]
+
+---
+
+<Note>
+Esta documentación se ha estructurado siguiendo las pautas de Mintlify, utilizando callouts, Cards y Steps para ofrecer una guía clara y práctica. Recuerda consultar los recursos adicionales para profundizar en cada subtema.
+</Note>
