@@ -19,7 +19,7 @@
       },
       {
         "dropdown": "Facturación y Resoluciones",
-        "icon": "file-invoice",
+        "icon": "file",
         "pages": [
           "facturacion_resolucion/Resolucion Documentos Soporte",
           "facturacion_resolucion/Resolucion Facturacion POS",
