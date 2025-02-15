@@ -11,14 +11,14 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "📘 Inicio",
+        "dropdown": "Inicio",
         "icon": "book-open",
         "pages": [
           "inicio/Introduccion"
         ]
       },
       {
-        "dropdown": "🧾 Facturación y Resoluciones",
+        "dropdown": "Facturación y Resoluciones",
         "icon": "file-invoice",
         "pages": [
           "facturacion_resolucion/Resolucion Documentos Soporte",
@@ -26,11 +26,13 @@
           "facturacion_resolucion/Resolucion de Contingencia",
           "facturacion_resolucion/Resolucion Facturacion Electronica",
           "facturacion_resolucion/Facturacion Electronica",
-          "facturacion_resolucion/Facturacion POS"
+          "facturacion_resolucion/Facturacion POS",
+          "facturacion_resolucion/Habilitacion DIAN",
+          "facturacion_resolucion/Nomina Electronica"
         ]
       },
       {
-        "dropdown": "💼 ERP",
+        "dropdown": "ERP",
         "icon": "briefcase",
         "pages": [
           "ERP/Inicio",
@@ -63,7 +65,7 @@
     "links": [
       {
         "label": "Soporte",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:soporte@gestoru.com"
       }
     ],
     "primary": {
