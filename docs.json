@@ -21,14 +21,14 @@
         "dropdown": "Facturación y Resoluciones",
         "icon": "file",
         "pages": [
-          "facturacion_resolucion/Resolucion Documentos Soporte",
-          "facturacion_resolucion/Resolucion Facturacion POS",
-          "facturacion_resolucion/Resolucion de Contingencia",
-          "facturacion_resolucion/Resolucion Facturacion Electronica",
           "facturacion_resolucion/Facturacion Electronica",
+          "facturacion_resolucion/Resolucion Facturacion Electronica",
+          "facturacion_resolucion/Resolucion Facturacion POS",
           "facturacion_resolucion/Facturacion POS",
+          "facturacion_resolucion/Nomina Electronica",
           "facturacion_resolucion/Habilitacion DIAN",
-          "facturacion_resolucion/Nomina Electronica"
+          "facturacion_resolucion/Resolucion Documentos Soporte",
+          "facturacion_resolucion/Resolucion de Contingencia"
         ]
       },
       {
