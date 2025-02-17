@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Gestoru",
+  "name": "Gestoru",  // ayuda.gestoru.com/{tema}/{modulo}/submodulo
   "colors": {
     "primary": "#CBFFDB",
     "light": "#07C983",
@@ -12,38 +12,303 @@
     "dropdowns": [
       {
         "dropdown": "Inicio",
-        "icon": "book-open",
         "pages": [
-          "inicio/Introduccion"
+          "inicio/introduccion"
         ]
       },
       {
         "dropdown": "Facturación y Resoluciones",
-        "icon": "file",
         "pages": [
-          "facturacion_resolucion/Facturacion Electronica",
-          "facturacion_resolucion/Resolucion Facturacion Electronica",
-          "facturacion_resolucion/Resolucion Facturacion POS",
-          "facturacion_resolucion/Facturacion POS",
-          "facturacion_resolucion/Nomina Electronica",
-          "facturacion_resolucion/Habilitacion DIAN",
-          "facturacion_resolucion/Resolucion Documentos Soporte",
-          "facturacion_resolucion/Resolucion de Contingencia"
+          {
+            "group": "Facturación",
+            "pages": [
+              "facturacion_resolucion/facturacion/facturas de venta",
+              "facturacion_resolucion/facturacion/pagos recibidos",
+              "facturacion_resolucion/facturacion/notas de credito",
+              "facturacion_resolucion/facturacion/remisiones",
+              "facturacion_resolucion/facturacion/pagos recibidos r",
+              "facturacion_resolucion/facturacion/cotizaciones"
+            ]
+          },
+          {
+            "group": "Facturación POS",
+            "pages": [
+              "facturacion_resolucion/facturacion_pos/facturas pos",
+              "facturacion_resolucion/facturacion_pos/turnos",
+              "facturacion_resolucion/facturacion_pos/notas de credito pos"
+            ]
+          },
+          {
+            "group": "Habilitaciones",
+            "pages": [
+              "facturacion_resolucion/habilitacion/habilitacion dian",
+              "facturacion_resolucion/habilitacion/habilitacion nomina"
+            ]
+          }
         ]
       },
       {
         "dropdown": "ERP",
-        "icon": "briefcase",
         "pages": [
-          "ERP/Inicio",
-          "ERP/Contactos",
-          "ERP/Inventario",
-          "ERP/Facturacion Electronica",
-          "ERP/Facturacion POS",
-          "ERP/CRM Flexible",
-          "ERP/Compras",
-          "ERP/Nomina Electronica",
-          "ERP/Restablecer Contraseña"
+          {
+            "group": "Contactos",
+            "pages": [
+              "ERP/contactos/todos",
+              "ERP/contactos/clientes",
+              "ERP/contactos/proveedores"
+            ]
+          },
+          {
+            "group": "Inventario",
+            "pages": [
+              "ERP/inventario/items en venta",
+              "ERP/inventario/grupos de items",
+              "ERP/inventario/valor inventario",
+              "ERP/inventario/ajustes del inventario",
+              "ERP/inventario/gestion de items",
+              "ERP/inventario/lista de precios",
+              "ERP/inventario/bodegas"
+            ]
+          },
+          {
+            "group": "CRM Flexible",
+            "pages": [
+              "ERP/crm_flexible/cotizaciones",
+              "ERP/crm_flexible/inventario",
+              "ERP/crm_flexible/contactos",
+              "ERP/crm_flexible/informe",
+              "ERP/crm_flexible/metas"
+            ]
+          },
+          {
+            "group": "Compras",
+            "pages": [
+              "ERP/compras/facturas de proveedores",
+              "ERP/compras/pagos egresos",
+              "ERP/compras/notas debito",
+              "ERP/compras/ordenes de compra",
+              "ERP/compras/pagos recurrentes",
+              "ERP/compras/documentos soporte",
+              "ERP/compras/recepcion de comprobantes"
+            ]
+          },
+          {
+            "group": "Nómina",
+            "pages": [
+              "ERP/nomina/personas",
+              "ERP/nomina/liquidar nomina",
+              "ERP/nomina/historial de periodos",
+              "ERP/nomina/contabilidad",
+              "ERP/nomina/planes",
+              "ERP/nomina/asistente de habilitacion"
+            ]
+          },
+          {
+            "group": "Bancos",
+            "pages": [
+              "ERP/bancos/index"
+            ]
+          },
+          {
+            "group": "Reportes",
+            "pages": [
+              "ERP/reportes/ventas",
+              "ERP/reportes/ventas",
+              "ERP/reportes/ventas pos",
+              "ERP/reportes/ventas por item (agrupal)",
+              "ERP/reportes/ventas por item (individual)",
+              "ERP/reportes/ventas por cliente",
+              "ERP/reportes/remisiones",
+              "ERP/reportes/remisiones por item",
+              "ERP/reportes/rentabilidad por item",
+              "ERP/reportes/rentabilidad por factura",
+              "ERP/reportes/estado de cuenta cliente",
+              "ERP/reportes/notas crédito",
+              "ERP/reportes/reporte de envío de remisiones",
+              "ERP/reportes/reporte de anticipos y notas",
+              "ERP/reportes/créditos de negocios",
+              "ERP/reportes/compras",
+              "ERP/reportes/compras por proveedor",
+              "ERP/reportes/todos los items y compras",
+              "ERP/reportes/resumen por item",
+              "ERP/reportes/documentos soporte",
+              "ERP/reportes/transacciones de compra",
+              "ERP/reportes/contratos devolución",
+              "ERP/reportes/compras no cumplidas",
+              "ERP/reportes/reportes en formato txt",
+              "ERP/reportes/exportación formato sigo",
+              "ERP/reportes/reportes tracking",
+              "ERP/reportes/módulo de seguimiento tracking",
+              "ERP/reportes/administrativos",
+              "ERP/reportes/adjuntos",
+              "ERP/reportes/cuentas por cobrar",
+              "ERP/reportes/cuentas por pagar",
+              "ERP/reportes/ingresos y egresos",
+              "ERP/reportes/transacciones",
+              "ERP/reportes/informes contables",
+              "ERP/reportes/informes facturas",
+              "ERP/reportes/retenciones iva",
+              "ERP/reportes/retenciones ica",
+              "ERP/reportes/pagos facturas y remisiones",
+              "ERP/reportes/notas contables",
+              "ERP/reportes/reporte administración pyg",
+              "ERP/reportes/estado de cuenta excel",
+              "ERP/reportes/gastosopex",
+              "ERP/reportes/cliente 360",
+              "ERP/reportes/reportes contactos",
+              "ERP/reportes/reporte contacto",
+              "ERP/reportes/crm",
+              "ERP/reportes/general",
+              "ERP/reportes/general smcg",
+              "ERP/reportes/cotizaciones",
+              "ERP/reportes/anexo"
+            ]
+          },
+          {
+            "group": "Configuracion",
+            "pages": [
+              {
+                "group": "Empresa",
+                "pages": [
+                  "ERP/configuracion/empresa/datos de la empresa",
+                  "ERP/configuracion/empresa/tipos de buzon",
+                  "ERP/configuracion/empresa/api",
+                  "ERP/configuracion/empresa/integraciones",
+                  "ERP/configuracion/empresa/roles",
+                  "ERP/configuracion/empresa/usuarios"
+                ]
+              },
+              {
+                "group": "Facturación",
+                "pages": [
+                  "ERP/configuracion/facturacion/terminos de pago",
+                  "ERP/configuracion/facturacion/numeraciones",
+                  "ERP/configuracion/facturacion/datos generales",
+                  "ERP/configuracion/facturacion/volantes",
+                  "ERP/configuracion/facturacion/integraciones",
+                  "ERP/configuracion/facturacion/formas de pago",
+                  "ERP/configuracion/facturacion/conceptos",
+                  "ERP/configuracion/facturacion/factura de exportacion",
+                  "ERP/configuracion/facturacion/configurar turno manual",
+                  "ERP/configuracion/facturacion/facturar items sin inventario",
+                  "ERP/configuracion/facturacion/formatos personalizables",
+                  "ERP/configuracion/facturacion/facturas y-o notas en pdf",
+                  "ERP/configuracion/facturacion/facturar saldo pendientes en pdf",
+                  "ERP/configuracion/facturacion/habilitar compras paccu en factura de venta",
+                  "ERP/configuracion/facturacion/habilitar modulo remision automatica"
+                ]
+              },
+              {
+                "group": "Facturación POS",
+                "pages": [
+                  "ERP/configuracion/facturacion pos/terminos de pago",
+                  "ERP/configuracion/facturacion pos/numeraciones",
+                  "ERP/configuracion/facturacion pos/datos generales",
+                  "ERP/configuracion/facturacion pos/integraciones",
+                  "ERP/configuracion/facturacion pos/habilitar reporte recaudo pos"
+                ]
+              },
+              {
+                "group": "Compras",
+                "pages": [
+                  "ERP/configuracion/compras/deshabilitar modulo",
+                  "ERP/configuracion/compras/ver comprobantes",
+                  "ERP/configuracion/compras/deshabilitar modulo remision de compras"
+                ]
+              },
+              {
+                "group": "Documentos Soporte",
+                "pages": [
+                  "ERP/configuracion/documentos soporte/generar documentos soporte",
+                  "ERP/configuracion/documentos soporte/numeraciones"
+                ]
+              },
+              {
+                "group": "Impuestos",
+                "pages": [
+                  "ERP/configuracion/impuestos/impuestos",
+                  "ERP/configuracion/impuestos/retenciones"
+                ]
+              },
+              {
+                "group": "Contactos",
+                "pages": [
+                  "ERP/configuracion/contactos/tipos de contactos",
+                  "ERP/configuracion/contactos/asociar cuenta por cobrar"
+                ]
+              },
+              {
+                "group": "Compras Extras Inventario",
+                "pages": [
+                  "ERP/configuracion/compras extras inventario/compras",
+                  "ERP/configuracion/compras extras inventario/habilitar compra doctores"
+                ]
+              },
+              {
+                "group": "Planes",
+                "pages": [
+                  "ERP/configuracion/planes/pagos & suscripcion",
+                  "ERP/configuracion/planes/plan personalizado",
+                  "ERP/configuracion/planes/pronto pago",
+                  "ERP/configuracion/planes/planes & suscripcion"
+                ]
+              },
+              {
+                "group": "Contabilidad",
+                "pages": [
+                  "ERP/configuracion/contabilidad/general categorias",
+                  "ERP/configuracion/contabilidad/asociar puc movimientos"
+                ]
+              },
+              {
+                "group": "Sedes",
+                "pages": [
+                  "ERP/configuracion/sedes/crear sede",
+                  "ERP/configuracion/sedes/ver sedes"
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "ERP/configuracion/crm/modulo en prueba",
+                  "ERP/configuracion/crm/integracion smcg",
+                  "ERP/configuracion/crm/configurar crm",
+                  "ERP/configuracion/crm/integraciones"
+                ]
+              },
+              {
+                "group": "Nómina",
+                "pages": [
+                  "ERP/configuracion/nomina/deshabilitar nomina",
+                  "ERP/configuracion/nomina/periodos de pago",
+                  "ERP/configuracion/nomina/numeraciones",
+                  "ERP/configuracion/nomina/calculos fijos",
+                  "ERP/configuracion/nomina/asistente de liquidacion dian",
+                  "ERP/configuracion/nomina/retencion deduccion laboral"
+                ]
+              },
+              {
+                "group": "Tracking (Seguimiento)",
+                "pages": [
+                  "ERP/configuracion/tracking (seguimiento)/deshabilitar tracking"
+                ]
+              },
+              {
+                "group": "Inventario",
+                "pages": [
+                  "ERP/configuracion/inventario/plantilla de codigo de barras"
+                ]
+              },
+              {
+                "group": "Columnas de Tabla",
+                "pages": [
+                  "ERP/configuracion/columnas de tabla/columnas"
+                ]
+              }
+            ]
+          },
+          "ERP/mi_pagina_web/index",
+          "ERP/soporte/index"
         ]
       }
     ]
